@@ -17,7 +17,7 @@ def tt_isochrone(p,
                  endpoint = "https://api.traveltimeapp.com/v4/time-map"):
 
     # Rate limit - https://docs.traveltime.com/api/overview/usage-limits
-    time.sleep(13) # max 60 HPM
+    time.sleep(1.1) # max 60 HPM
     
     # Append Accept header to creds dictionary
     creds['Accept'] =  'application/geo+json'
